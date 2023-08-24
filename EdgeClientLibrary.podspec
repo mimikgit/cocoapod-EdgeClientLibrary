@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
 
   s.name         = "EdgeClientLibrary"
   s.version      = "5.0.0"
-  s.summary      = "mimik client library core"
+  s.summary      = "mimik edge client library"
 
   s.description  = <<-DESC
-EdgeClientLibrary cocoapod is a Cocopods.org distributed framework that provides APIs to help you interact with mimik core services. For the edgeEngine framework and its APIs see MIMIKEdgeClientEngine.
+EdgeClientLibrary is a collection of pods providing APIs to help developers interact with mimik edge services.
   DESC
 
   s.homepage     = "https://github.com/mimikgit/cocoapod-EdgeClientLibrary"
@@ -26,10 +26,6 @@ EdgeClientLibrary cocoapod is a Cocopods.org distributed framework that provides
   s.dependency 'MIMIKEdgeClientCore'
   s.dependency 'MIMIKEdgeClientEngine'
   s.dependency 'MIMIKEdgeClientUser'
-  s.dependency 'Alamofire', '~> 5.7.1'
-  s.dependency 'SwiftyJSON', '~> 5.0.1'
-  s.dependency 'JWTDecode', '~> 3.0.1'
-  s.dependency 'AppAuth', '~> 1.6.2'
 
   s.platform = 'ios', '15.0'
 end
