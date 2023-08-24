@@ -21,6 +21,7 @@ EdgeClientLibrary cocoapod is a Cocopods.org distributed framework that provides
 
   s.author       = { "mimik" => "apps@mimik.com" }
   s.source       = { :git => "https://github.com/mimikgit/cocoapod-EdgeClientLibrary.git", :tag => "#{s.version}" }
+  s.swift_versions = '5.0'
 
   s.dependency 'MIMIKEdgeClientCore'
   s.dependency 'MIMIKEdgeClientEngine'
