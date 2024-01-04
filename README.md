@@ -1,12 +1,3 @@
-# What You Need to Know Before You Start
-
-In order to get the full benefit of this document, the intended readers should be familiar with the following:
-
-* Understanding the Fundamentals of the [edgeEngine Runtime](https://devdocs.mimik.com/key-concepts/01-index)
-* Understanding [edgeEngine Images and Containers](https://devdocs.mimik.com/key-concepts/02-index)
-* The basics of using an [edgeEngine Tokens](https://devdocs.mimik.com/key-concepts/03-index) to access and work with the edgeEngine Runtime
-
-
 # Purpose of the mimik Client Library
 
 The purpose of the mimik Client Library is to provide a programmatic way to work with the edgeEngine Runtime to access information about the mobile device on which the application is running, as well as mobile devices running within a cluster of mobile devices that are hosting the edgeEngine Runtime. Also, to allow developers to use edge microservices running within a particular cluster.
@@ -37,17 +28,22 @@ By importing the EdgeClientLibrary cocoapod into your iOS project, you will be a
   - [EdgeEngine](https://github.com/mimikgit/cocoapod-EdgeEngine)
   - [EdgeUser](https://github.com/mimikgit/cocoapod-EdgeUser)
 
+
 ## Supported Platforms, Targets
+
 * `iOS Devices running iOS 15+`
+
 
 ## iOS Simulator support
 
 For more information about iOS Simulator support see this [article](https://devdocs.mimik.com/tutorials/12-index#workingwithaniossimulator)
 
+
 ## Requirements
 ```
 iOS 15.0+
 ```
+
 
 ## Installation
 
@@ -82,8 +78,18 @@ post_install do |installer|
 end
 ```
 
+
 # More Information
 
 * [Integrating](https://devdocs.mimik.com/tutorials/11-index) mimik Client Library into an iOS project
 * Working with [edgeEngine](https://devdocs.mimik.com/tutorials/12-index) in an iOS project
 * Working with [edge microservices](https://devdocs.mimik.com/tutorials/13-index) in an iOS project
+
+
+# Key Concepts
+
+In order to get the full benefit of this document, the intended readers should be familiar with the following:
+
+* Understanding the Fundamentals of the [edgeEngine Runtime](https://devdocs.mimik.com/key-concepts/01-index)
+* Understanding [edgeEngine Images and Containers](https://devdocs.mimik.com/key-concepts/02-index)
+* The basics of using an [edgeEngine Tokens](https://devdocs.mimik.com/key-concepts/03-index) to access and work with the edgeEngine Runtime
