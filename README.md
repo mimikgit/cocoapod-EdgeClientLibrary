@@ -15,8 +15,8 @@ The purpose of the **mimik Client Library for iOS** is to provide a programmatic
 
 The **mimik Client Library for iOS suite** consists of two sets of cocoapods:
 
-	- EdgeClientLibrary				(EdgeCore + EdgeEngine)
-	- EdgeClientLibraryDeveloper	(EdgeCore + EdgeEngineDeveloper)
+	- EdgeClientLibrary          (EdgeCore + EdgeEngine)
+	- EdgeClientLibraryDeveloper (EdgeCore + EdgeEngineDeveloper)
 
 or four individual cocoapod components:
 
@@ -64,9 +64,9 @@ use_frameworks!
 inhibit_all_warnings!
 
 def mimik
-  pod 'EdgeCore'				# all developers
-  pod 'EdgeEngineDeveloper'	# when using developer edge license
-  ### or pod 'EdgeEngine'	# when using full edge license
+  pod 'EdgeCore'	# all developers
+  pod 'EdgeEngineDeveloper'	# developers with developer edge license
+  ### or pod 'EdgeEngine'	# developers with full edge license
 end
 
 target '{target}' do
